@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 200px;
+        }
+        div{
+            margin:135 auto;
+            background-color: black;
+            color: blanchedalmond;
+            position: relative;
+            aspect-ratio: 1;
+            transform: rotate(45deg);
+            box-shadow: 0 0 0 10px #000000, 0 0 0 40px pink;
+        }
+        h4{
+            transform: rotate(-45deg);
+            font-weight: 900;
+            font-size: 20px;
+           margin-top:90px ;
+          
+
+                    }
+        div::before,
+        div::after{
+            position: absolute;
+            content: '';
+            background-color:#DEB887;
+            width: 30px;
+            height: 30px;
+        }
+        div::before{
+            top: -40px;
+            right:-40px
+        }
+        div::before{
+            top: -40px;
+            bottom:-400px
+        }
+        div::after{
+            rotate: 90deg;
+            top: -40px;
+            left:-40px
+        }
+        span{
+            color:#FFA07A;
+        }
+  
+    </style>
+<body>
+
+
+<div>
+<h4>
+HTML <span>&</span>CSS
+<p>
+    design and build webpages
+</p>
+</h4>
+</div>
+
+</body>
+</html>
